@@ -200,5 +200,5 @@ async def on_message(message):
   if message.content.startswith('yes'.upper()):
     await message.channel.send('No')               
 
-my_secret = "OTY4NTg0MjU2NDcxMzI2Nzkw.Ymg-Yg.Ny5vcMND7ypVXvZWXVeiFbT3kTg"
+my_secret = "paste you token here"
 client.run(my_secret)
